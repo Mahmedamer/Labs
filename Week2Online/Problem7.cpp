@@ -19,7 +19,7 @@ int main()
 	int arr[n];
 	for (int i = 0; i < n; i++)
 	{
-		cout << "Enter The Value "<< i <<" : ";
+		cout << "Enter The Value "<< i + 1 <<" : ";
 		cin >> arr[i];
 	}
 	int oldv, newv;
